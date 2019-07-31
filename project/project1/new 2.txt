@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>SIGN</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet"   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+   <div class="a">
+     <p style="font-size:5vw;">KAHON</p>
+  </div>
+  
+ <div class="main"> 
+	<ul>  
+	<li> <a href="project.html">HOME</a></li>
+	<li> <a href="about.html">ABOUT</a></li>
+	<li> <a href="book.html">BOOK</a></li>
+	<li> <a href="boi.html">BOI MELA</a></li>
+	<li> <a href="pub.html">PUBLISHER</a></li>
+	<li> <a href="#">SIGN</a></li>	
+	<!--<li> <a href="log.html"></a></li>-->
+	</ul><div class="sn">
+	
+</div>
+
+     <form name="reg" action="save.php" method="post">
+      student id: <input type="text" name="sid"><br><br>
+	  student name:<input type="text" name="sn"><br><br>
+	  student age:<input type="text" name="sa"><br><br>
+	  
+	    <input type="submit" name="sb" value="submit">
+   
+   </form>
+  
+</body>
+</html>
